@@ -1,0 +1,9 @@
+/**app.wxss**/
+page{
+  font-family: 'PingFangSC-Thin';
+  font-size: 32rpx;
+}
+/* .container{
+  background-color: blue;
+  height: 50px;
+} */
