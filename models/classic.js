@@ -10,6 +10,16 @@ class ClassicModel extends HTTP{
             }
         })
     }
+
+    getPrevious(index,sCallback){
+        this.request({
+          url:'classic/'+index +'/previous',
+          succuess:(res)=>{
+            console.log(res)
+            sCallback(res)
+          }
+        })
+    }
 }
 
 export {ClassicModel}
