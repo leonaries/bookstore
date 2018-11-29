@@ -1,1 +1,22 @@
 /* pages/classic/classic.wxss */
+.container{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center
+}
+.navi{
+  position: absolute;
+  bottom: 40rpx;
+}
+.header{
+  width: 100%;
+  height: 100rpx;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center
+}
+.epsoide{
+  margin-left:20rpx 
+}

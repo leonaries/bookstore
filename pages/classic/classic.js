@@ -9,7 +9,9 @@ Page({
    * 页面的初始数据
    */
   data: {
-  
+    classicData:null,
+    latest:true,
+    first:false
   },
 
   /**
@@ -26,6 +28,17 @@ Page({
     console.log(event)
     let behavior = event.detail.behavior
     likeModel.like(behavior, this.data.classicData.id,this.data.classicData.type)
+  },
+
+  onNext:function(e){
+
+  },
+
+  onPrevious: function (e) {
+    let index = this.data.classicData.index
+    classicModel.getPrevious(index,(res) => {
+      console.log(res)
+    })
   },
   /**
    * 生命周期函数--监听页面初次渲染完成
