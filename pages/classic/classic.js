@@ -36,9 +36,8 @@ Page({
 
   onPrevious: function (e) {
     let index = this.data.classicData.index
-    console.log(index)
     classicModel.getPrevious(index,(res) => {
-      console.log(123)
+      console.log(res)
     })
   },
   /**
