@@ -11,7 +11,9 @@ Page({
   data: {
     classicData:null,
     latest:true,
-    first:false
+    first:false,
+    likeStatus:false,
+    likeCount:0
   },
 
   /**
@@ -20,26 +22,47 @@ Page({
   onLoad: function (options) {
     classicModel.getLatest((res) =>{
           this.setData({
-              classicData:res
+              classicData:res,
+              likeStatus: res.like_status,
+              likeCount: res.fav_nums
           })
       })
   },
   onLike:function (event) {
-    console.log(event)
     let behavior = event.detail.behavior
     likeModel.like(behavior, this.data.classicData.id,this.data.classicData.type)
   },
 
   onNext:function(e){
-
+   this._updateClassic('next')
   },
 
   onPrevious: function (e) {
+   this._updateClassic('previous')
+  },
+
+  _updateClassic: function (nextOrPrevious){
     let index = this.data.classicData.index
-    classicModel.getPrevious(index,(res) => {
-      console.log(res)
+    classicModel.getClassic(index, nextOrPrevious, (res) => {
+      this._getLikeStatus(res.id,res.type)
+      this.setData({
+        classicData: res,
+        latest: classicModel.isLatest(res.index),
+        first: classicModel.isFirst(res.index)
+      })
     })
   },
+
+  _getLikeStatus:function(artId,category){
+    likeModel.getClassicLikeStatus(artId,category,(res)=>{
+      this.setData({
+        likeCount:res.fav_nums,
+        likeStatus:res.like_status
+      })
+    })
+  },
+
+  
   /**
    * 生命周期函数--监听页面初次渲染完成
    */

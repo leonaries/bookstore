@@ -2,22 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="69a6d19f-1e36-453f-95eb-e0ec2d0fe759" name="默认的" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/components/classic/essay/images/essay@tag.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/components/classic/music/images/music@tag.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/components/classic/music/images/player@pause.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/components/classic/music/images/player@play.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/components/navi/images/triangle.dis@left.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/components/navi/images/triangle.dis@right.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/components/navi/images/triangle@left.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/components/navi/images/triangle@right.png" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/components/classic/movie/index.js" afterPath="$PROJECT_DIR$/components/classic/movie/index.js" />
+      <change beforePath="$PROJECT_DIR$/components/classic/essay/index.wxss" afterPath="$PROJECT_DIR$/components/classic/essay/index.wxss" />
+      <change beforePath="$PROJECT_DIR$/components/classic/movie/index.wxss" afterPath="$PROJECT_DIR$/components/classic/movie/index.wxss" />
+      <change beforePath="$PROJECT_DIR$/components/classic/music/index.js" afterPath="$PROJECT_DIR$/components/classic/music/index.js" />
+      <change beforePath="$PROJECT_DIR$/components/classic/music/index.wxml" afterPath="$PROJECT_DIR$/components/classic/music/index.wxml" />
+      <change beforePath="$PROJECT_DIR$/components/classic/music/index.wxss" afterPath="$PROJECT_DIR$/components/classic/music/index.wxss" />
+      <change beforePath="$PROJECT_DIR$/models/classic.js" afterPath="$PROJECT_DIR$/models/classic.js" />
+      <change beforePath="$PROJECT_DIR$/models/like.js" afterPath="$PROJECT_DIR$/models/like.js" />
       <change beforePath="$PROJECT_DIR$/pages/classic/classic.js" afterPath="$PROJECT_DIR$/pages/classic/classic.js" />
       <change beforePath="$PROJECT_DIR$/pages/classic/classic.json" afterPath="$PROJECT_DIR$/pages/classic/classic.json" />
       <change beforePath="$PROJECT_DIR$/pages/classic/classic.wxml" afterPath="$PROJECT_DIR$/pages/classic/classic.wxml" />
-      <change beforePath="$PROJECT_DIR$/pages/classic/classic.wxss" afterPath="$PROJECT_DIR$/pages/classic/classic.wxss" />
-      <change beforePath="$PROJECT_DIR$/project.config.json" afterPath="$PROJECT_DIR$/project.config.json" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -66,7 +61,10 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="200">
               <caret line="8" column="30" lean-forward="false" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
-              <folding />
+              <folding>
+                <marker date="1543548567233" expanded="true" signature="71:1437" ph="{...}" />
+                <marker date="1543548567233" expanded="true" signature="209:254" ph="{...}" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -74,19 +72,9 @@
       <file leaf-file-name="classic.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pages/classic/classic.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="575">
-              <caret line="25" column="22" lean-forward="false" selection-start-line="25" selection-start-column="22" selection-end-line="25" selection-end-column="22" />
-              <folding>
-                <marker date="1543483121261" expanded="true" signature="286:315" ph="/** 生命周期函数--监听页面加载 ...*/" />
-                <marker date="1543483121261" expanded="true" signature="407:450" ph="{&quot;classicData&quot;: res...}" />
-                <marker date="1543483121261" expanded="true" signature="714:747" ph="/** 生命周期函数--监听页面初次渲染完成 ...*/" />
-                <marker date="1543483121261" expanded="true" signature="782:811" ph="/** 生命周期函数--监听页面显示 ...*/" />
-                <marker date="1543483121261" expanded="true" signature="845:874" ph="/** 生命周期函数--监听页面隐藏 ...*/" />
-                <marker date="1543483121261" expanded="true" signature="908:937" ph="/** 生命周期函数--监听页面卸载 ...*/" />
-                <marker date="1543483121261" expanded="true" signature="973:1008" ph="/** 页面相关事件处理函数--监听用户下拉动作 ...*/" />
-                <marker date="1543483121261" expanded="true" signature="1053:1081" ph="/** 页面上拉触底事件的处理函数 ...*/" />
-                <marker date="1543483121261" expanded="true" signature="1122:1146" ph="/** 用户点击右上角分享 ...*/" />
-              </folding>
+            <state relative-caret-position="675">
+              <caret line="30" column="22" lean-forward="false" selection-start-line="30" selection-start-column="22" selection-end-line="30" selection-end-column="22" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -96,7 +84,9 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="300">
               <caret line="12" column="6" lean-forward="false" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
-              <folding />
+              <folding>
+                <marker date="1543547860789" expanded="true" signature="68:460" ph="{...}" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -196,7 +186,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -243,6 +232,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scratches" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -300,16 +290,18 @@
       <workItem from="1543281774060" duration="5825000" />
       <workItem from="1543370015816" duration="5988000" />
       <workItem from="1543458164266" duration="3270000" />
+      <workItem from="1543540893075" duration="816000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27094000" />
+    <option name="totallyTimeSpent" value="27910000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24973656" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24973656" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="调试" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -370,7 +362,87 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="200">
           <caret line="8" column="30" lean-forward="false" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
+          <folding>
+            <marker date="1543548567233" expanded="true" signature="71:1437" ph="{...}" />
+            <marker date="1543548567233" expanded="true" signature="209:254" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/classic/classic.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="25" column="22" lean-forward="false" selection-start-line="25" selection-start-column="22" selection-end-line="25" selection-end-column="22" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/like.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="12" column="6" lean-forward="false" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
+          <folding>
+            <marker date="1543547860789" expanded="true" signature="68:460" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/classic/classic.wxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="1" column="19" lean-forward="false" selection-start-line="1" selection-start-column="19" selection-end-line="1" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/like/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="975">
+          <caret line="39" column="29" lean-forward="false" selection-start-line="39" selection-start-column="29" selection-end-line="39" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/navi/index.wxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="4" column="7" lean-forward="false" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="9" column="14" lean-forward="false" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="5" column="15" lean-forward="false" selection-start-line="5" selection-start-column="15" selection-end-line="5" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/http.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" column="1" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/classic.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="8" column="30" lean-forward="false" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
+          <folding>
+            <marker date="1543548567233" expanded="true" signature="71:1437" ph="{...}" />
+            <marker date="1543548567233" expanded="true" signature="209:254" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -378,17 +450,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="575">
           <caret line="24" column="22" lean-forward="true" selection-start-line="24" selection-start-column="22" selection-end-line="24" selection-end-column="22" />
-          <folding>
-            <marker date="1543483121261" expanded="true" signature="286:315" ph="/** 生命周期函数--监听页面加载 ...*/" />
-            <marker date="1543483121261" expanded="true" signature="407:450" ph="{&quot;classicData&quot;: res...}" />
-            <marker date="1543483121261" expanded="true" signature="714:747" ph="/** 生命周期函数--监听页面初次渲染完成 ...*/" />
-            <marker date="1543483121261" expanded="true" signature="782:811" ph="/** 生命周期函数--监听页面显示 ...*/" />
-            <marker date="1543483121261" expanded="true" signature="845:874" ph="/** 生命周期函数--监听页面隐藏 ...*/" />
-            <marker date="1543483121261" expanded="true" signature="908:937" ph="/** 生命周期函数--监听页面卸载 ...*/" />
-            <marker date="1543483121261" expanded="true" signature="973:1008" ph="/** 页面相关事件处理函数--监听用户下拉动作 ...*/" />
-            <marker date="1543483121261" expanded="true" signature="1053:1081" ph="/** 页面上拉触底事件的处理函数 ...*/" />
-            <marker date="1543483121261" expanded="true" signature="1122:1146" ph="/** 用户点击右上角分享 ...*/" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -412,7 +474,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="100">
           <caret line="4" column="26" lean-forward="true" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
-          <folding />
+          <folding>
+            <marker date="1543547860789" expanded="true" signature="68:460" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -436,17 +500,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="25">
           <caret line="1" column="11" lean-forward="false" selection-start-line="1" selection-start-column="11" selection-end-line="1" selection-end-column="11" />
-          <folding>
-            <marker date="1543483121261" expanded="true" signature="286:315" ph="/** 生命周期函数--监听页面加载 ...*/" />
-            <marker date="1543483121261" expanded="true" signature="407:450" ph="{&quot;classicData&quot;: res...}" />
-            <marker date="1543483121261" expanded="true" signature="714:747" ph="/** 生命周期函数--监听页面初次渲染完成 ...*/" />
-            <marker date="1543483121261" expanded="true" signature="782:811" ph="/** 生命周期函数--监听页面显示 ...*/" />
-            <marker date="1543483121261" expanded="true" signature="845:874" ph="/** 生命周期函数--监听页面隐藏 ...*/" />
-            <marker date="1543483121261" expanded="true" signature="908:937" ph="/** 生命周期函数--监听页面卸载 ...*/" />
-            <marker date="1543483121261" expanded="true" signature="973:1008" ph="/** 页面相关事件处理函数--监听用户下拉动作 ...*/" />
-            <marker date="1543483121261" expanded="true" signature="1053:1081" ph="/** 页面上拉触底事件的处理函数 ...*/" />
-            <marker date="1543483121261" expanded="true" signature="1122:1146" ph="/** 用户点击右上角分享 ...*/" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -647,19 +701,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pages/classic/classic.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="575">
-          <caret line="25" column="22" lean-forward="false" selection-start-line="25" selection-start-column="22" selection-end-line="25" selection-end-column="22" />
-          <folding>
-            <marker date="1543483121261" expanded="true" signature="286:315" ph="/** 生命周期函数--监听页面加载 ...*/" />
-            <marker date="1543483121261" expanded="true" signature="407:450" ph="{&quot;classicData&quot;: res...}" />
-            <marker date="1543483121261" expanded="true" signature="714:747" ph="/** 生命周期函数--监听页面初次渲染完成 ...*/" />
-            <marker date="1543483121261" expanded="true" signature="782:811" ph="/** 生命周期函数--监听页面显示 ...*/" />
-            <marker date="1543483121261" expanded="true" signature="845:874" ph="/** 生命周期函数--监听页面隐藏 ...*/" />
-            <marker date="1543483121261" expanded="true" signature="908:937" ph="/** 生命周期函数--监听页面卸载 ...*/" />
-            <marker date="1543483121261" expanded="true" signature="973:1008" ph="/** 页面相关事件处理函数--监听用户下拉动作 ...*/" />
-            <marker date="1543483121261" expanded="true" signature="1053:1081" ph="/** 页面上拉触底事件的处理函数 ...*/" />
-            <marker date="1543483121261" expanded="true" signature="1122:1146" ph="/** 用户点击右上角分享 ...*/" />
-          </folding>
+        <state relative-caret-position="675">
+          <caret line="30" column="22" lean-forward="false" selection-start-line="30" selection-start-column="22" selection-end-line="30" selection-end-column="22" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -667,7 +711,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="200">
           <caret line="8" column="30" lean-forward="false" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
-          <folding />
+          <folding>
+            <marker date="1543548567233" expanded="true" signature="71:1437" ph="{...}" />
+            <marker date="1543548567233" expanded="true" signature="209:254" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -675,7 +722,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
           <caret line="12" column="6" lean-forward="false" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
-          <folding />
+          <folding>
+            <marker date="1543547860789" expanded="true" signature="68:460" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
