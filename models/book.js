@@ -6,6 +6,17 @@ class BookModel extends HTTP {
             url:'book/hot_list'
         })
     }
+
+    search(start,q){
+      return this.request({
+        url:'book/search',
+        data:{
+          start:start,
+          q:q,
+          summary:1
+        }
+      })
+    }
     
     getMyBookCount(){
         return this.request({
@@ -41,7 +52,6 @@ class BookModel extends HTTP {
         }
       })
     }
-
 }
 
 export {BookModel}

@@ -37,11 +37,11 @@
 			"list": []
 		},
 		"miniprogram": {
-			"current": 1,
+			"current": 0,
 			"list": [
 				{
-					"id": -1,
-					"name": "书籍页面编译模式",
+					"id": 0,
+					"name": "book",
 					"pathName": "pages/book/book",
 					"query": ""
 				},
