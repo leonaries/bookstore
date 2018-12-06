@@ -37,7 +37,7 @@
 			"list": []
 		},
 		"miniprogram": {
-			"current": 0,
+			"current": 2,
 			"list": [
 				{
 					"id": 0,
@@ -50,6 +50,12 @@
 					"name": "book-detail",
 					"pathName": "pages/book-detail/book-detail",
 					"query": "bid=7"
+				},
+				{
+					"id": -1,
+					"name": "my",
+					"pathName": "pages/my/my",
+					"query": ""
 				}
 			]
 		}

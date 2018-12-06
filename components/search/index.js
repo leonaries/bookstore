@@ -25,7 +25,8 @@ Component({
     hotWords:[],
     searching:false,
     q:"",
-    loading:false
+    loadingCenter:false,
+
   },
   attached(){
     this.setData({
@@ -47,32 +48,35 @@ Component({
       if(!this.data.q){
         return
       }
-      if(this.data.loading){
+      if (this.isLocked()){
         return
       }
-
-      this.data.loading = true
       if(this.hasMore()){
+        //加载数据中 下一次进入方法时如果是加载数据中 不发送请求
+        this.locked()
+        
         bookModel.search(this.getCurrentStart(), this.data.q)
         .then(res => {
           this.setMoreData(res.books)
-          this.data.loading = false
+          //加载数据完成
+          this.unLocked()
+        }).catch(err =>{
+          //加载数据失败
+          this.unLocked()
         })
       }
     },
     onCancel(){
+      this.initialize()
       this.triggerEvent('cancel',{},{})
     },
     onDelete(){
-      this.setData({
-        searching:false,
-        q:""
-      })
+      this.initialize()
+      this._closeResult()
     },
     onConfirm(e){
-      this.setData({
-        searching: true
-      })
+      this._showResult()
+      this._showLoadingCenter()
       this.initialize()
       const q = e.detail.text || e.detail.value
       bookModel.search(0,q).then(res =>{
@@ -83,6 +87,31 @@ Component({
         })
         //加入历史搜索关键词
         keywordModel.addToHistory(q)
+        this._hideLoadingCenter()
+      })
+    },
+
+    _showResult(){
+      this.setData({
+        searching: true
+      })
+    },
+    _closeResult(){
+      this.setData({
+        searching: false,
+        q: ""
+      })
+    },
+
+    _showLoadingCenter(){
+      this.setData({
+        loadingCenter:true
+      })
+    },
+
+    _hideLoadingCenter(){
+      this.setData({
+        loadingCenter: false
       })
     }
   }

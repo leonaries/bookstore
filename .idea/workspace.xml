@@ -2,13 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="69a6d19f-1e36-453f-95eb-e0ec2d0fe759" name="默认的" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/components/search/images/cancel.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/components/search/images/search.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/components/preview/index.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/components/preview/index.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/components/preview/index.wxml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/components/preview/index.wxss" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/models/book.js" afterPath="$PROJECT_DIR$/models/book.js" />
-      <change beforePath="$PROJECT_DIR$/pages/book/book.js" afterPath="$PROJECT_DIR$/pages/book/book.js" />
-      <change beforePath="$PROJECT_DIR$/pages/book/book.json" afterPath="$PROJECT_DIR$/pages/book/book.json" />
-      <change beforePath="$PROJECT_DIR$/pages/book/book.wxml" afterPath="$PROJECT_DIR$/pages/book/book.wxml" />
+      <change beforePath="$PROJECT_DIR$/app.json" afterPath="$PROJECT_DIR$/app.json" />
+      <change beforePath="$PROJECT_DIR$/components/behaviors/pagination.js" afterPath="$PROJECT_DIR$/components/behaviors/pagination.js" />
+      <change beforePath="$PROJECT_DIR$/components/search/index.js" afterPath="$PROJECT_DIR$/components/search/index.js" />
+      <change beforePath="$PROJECT_DIR$/components/search/index.json" afterPath="$PROJECT_DIR$/components/search/index.json" />
+      <change beforePath="$PROJECT_DIR$/components/search/index.wxml" afterPath="$PROJECT_DIR$/components/search/index.wxml" />
+      <change beforePath="$PROJECT_DIR$/pages/classic/classic.json" afterPath="$PROJECT_DIR$/pages/classic/classic.json" />
+      <change beforePath="$PROJECT_DIR$/pages/classic/classic.wxml" afterPath="$PROJECT_DIR$/pages/classic/classic.wxml" />
+      <change beforePath="$PROJECT_DIR$/pages/classic/classic.wxss" afterPath="$PROJECT_DIR$/pages/classic/classic.wxss" />
+      <change beforePath="$PROJECT_DIR$/pages/my/my.js" afterPath="$PROJECT_DIR$/pages/my/my.js" />
+      <change beforePath="$PROJECT_DIR$/pages/my/my.json" afterPath="$PROJECT_DIR$/pages/my/my.json" />
+      <change beforePath="$PROJECT_DIR$/pages/my/my.wxml" afterPath="$PROJECT_DIR$/pages/my/my.wxml" />
+      <change beforePath="$PROJECT_DIR$/pages/my/my.wxss" afterPath="$PROJECT_DIR$/pages/my/my.wxss" />
       <change beforePath="$PROJECT_DIR$/project.config.json" afterPath="$PROJECT_DIR$/project.config.json" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -24,18 +34,6 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="classic.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/models/classic.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="25">
-              <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-              <folding>
-                <marker date="1543548567233" expanded="true" signature="209:254" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="classic.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pages/classic/classic.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="25">
@@ -43,16 +41,6 @@
               <folding>
                 <element signature="e#28#80#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.wxml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/components/navi/index.wxml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
-              <caret line="4" column="7" lean-forward="false" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="7" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -70,7 +58,7 @@
       <file leaf-file-name="book.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/models/book.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
+            <state relative-caret-position="500">
               <caret line="20" column="18" lean-forward="false" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="18" />
               <folding />
             </state>
@@ -80,7 +68,7 @@
       <file leaf-file-name="book.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pages/book/book.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="475">
+            <state relative-caret-position="450">
               <caret line="19" column="30" lean-forward="false" selection-start-line="19" selection-start-column="30" selection-end-line="19" selection-end-column="30" />
               <folding />
             </state>
@@ -100,7 +88,7 @@
       <file leaf-file-name="book-detail.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pages/book-detail/book-detail.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
+            <state relative-caret-position="650">
               <caret line="27" column="45" lean-forward="false" selection-start-line="27" selection-start-column="45" selection-end-line="27" selection-end-column="45" />
               <folding>
                 <element signature="e#36#80#0" expanded="true" />
@@ -109,21 +97,41 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="common.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="common.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/utils/common.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="9" selection-end-column="1" />
+            <state relative-caret-position="225">
+              <caret line="9" column="1" lean-forward="false" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/components/like/index.js">
+        <entry file="file://$PROJECT_DIR$/components/search/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="975">
-              <caret line="39" column="29" lean-forward="false" selection-start-line="39" selection-start-column="29" selection-end-line="39" selection-end-column="29" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/components/image-button/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="175">
+              <caret line="7" column="4" lean-forward="false" selection-start-line="5" selection-start-column="1" selection-end-line="7" selection-end-column="4" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/components/preview/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="250">
+              <caret line="10" column="26" lean-forward="true" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
               <folding />
             </state>
           </provider>
@@ -168,6 +176,7 @@
         <option value="$PROJECT_DIR$/models/book.js" />
         <option value="$PROJECT_DIR$/pages/book/book.js" />
         <option value="$PROJECT_DIR$/pages/book-detail/book-detail.js" />
+        <option value="$PROJECT_DIR$/components/preview/index.js" />
       </list>
     </option>
   </component>
@@ -183,7 +192,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="1912" />
     <option name="y" value="-8" />
     <option name="width" value="1936" />
@@ -204,8 +213,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -217,12 +224,6 @@
               <item name="mybookstore" type="b2602c69:ProjectViewProjectNode" />
               <item name="mybookstore" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mybookstore" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mybookstore" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="book" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="mybookstore" type="b2602c69:ProjectViewProjectNode" />
@@ -272,6 +273,8 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -284,11 +287,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\mybookstore\components" />
       <recent name="F:\mybookstore\components\search\images" />
       <recent name="F:\mybookstore\images" />
       <recent name="F:\mybookstore\utils" />
       <recent name="F:\mybookstore\components\classic\essay\images" />
-      <recent name="F:\mybookstore\components\classic\music\images" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -332,14 +335,15 @@
       <workItem from="1543799912558" duration="5817000" />
       <workItem from="1543887052213" duration="3610000" />
       <workItem from="1543972833107" duration="3024000" />
+      <workItem from="1544059461460" duration="2439000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="40361000" />
+    <option name="totallyTimeSpent" value="42800000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1912" y="-8" width="1936" height="1056" extended-state="7" />
+    <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24973656" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -349,8 +353,8 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="运行" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3297062" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="运行" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -375,29 +379,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/models/like.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="12" column="6" lean-forward="false" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/classic/classic.wxml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
-          <caret line="1" column="19" lean-forward="false" selection-start-line="1" selection-start-column="19" selection-end-line="1" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/components/like/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="975">
-          <caret line="39" column="29" lean-forward="false" selection-start-line="39" selection-start-column="29" selection-end-line="39" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/components/navi/index.wxml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="100">
@@ -452,7 +433,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="25">
           <caret line="1" column="19" lean-forward="false" selection-start-line="1" selection-start-column="19" selection-end-line="1" selection-end-column="19" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -670,7 +650,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="25">
           <caret line="1" column="19" lean-forward="false" selection-start-line="1" selection-start-column="19" selection-end-line="1" selection-end-column="19" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -720,7 +699,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/models/book.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
+        <state relative-caret-position="500">
           <caret line="20" column="18" lean-forward="false" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="18" />
           <folding />
         </state>
@@ -736,7 +715,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pages/book/book.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
+        <state relative-caret-position="450">
           <caret line="19" column="30" lean-forward="false" selection-start-line="19" selection-start-column="30" selection-end-line="19" selection-end-column="30" />
           <folding />
         </state>
@@ -744,7 +723,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pages/book-detail/book-detail.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
+        <state relative-caret-position="650">
           <caret line="27" column="45" lean-forward="false" selection-start-line="27" selection-start-column="45" selection-end-line="27" selection-end-column="45" />
           <folding>
             <element signature="e#36#80#0" expanded="true" />
@@ -754,8 +733,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/utils/common.js">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="9" column="1" lean-forward="false" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/search/index.js">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="9" selection-end-column="1" />
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/image-button/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="7" column="4" lean-forward="false" selection-start-line="5" selection-start-column="1" selection-end-line="7" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/preview/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="10" column="26" lean-forward="true" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
           <folding />
         </state>
       </provider>

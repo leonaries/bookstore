@@ -4,7 +4,8 @@
     "pages/book/book",
     "components/epsoide/index",
     "pages/my/my",
-    "pages/book-detail/book-detail"
+    "pages/book-detail/book-detail",
+    "pages/about/about"
   ],
   "window": {
     "backgroundTextStyle": "light",
