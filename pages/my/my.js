@@ -20,9 +20,17 @@ Page({
    */
   onLoad: function (options) {
     this.userAuthorized()
-    this.getMyBookCount()
-    this.getMyFavor()
+   
   },
+
+  /**
+   * 生命周期函数--监听页面显示
+   */
+  onShow: function () {
+    this.getMyFavor()
+    this.getMyBookCount()
+  },
+
   //获取喜欢的书数量
   getMyBookCount(){
     bookModel.getMyBookCount().then(res =>{
@@ -49,6 +57,7 @@ Page({
       }
     })
   },
+  //获取用户信息
   onGetUserInfo(e) {
     const userInfo = e.detail.userInfo
     if(userInfo)
@@ -58,13 +67,13 @@ Page({
     })
   },
 
-
+  //点击关于我们
   onJumpToAbout(e){
-    wx.navigateTo({
-      url: '/pages/about/about'
-    })
+    // wx.navigateTo({
+    //   url: '/pages/about/about'
+    // })
   },
-
+  //获取我喜欢的期刊
   getMyFavor(){
     classicModel.getMyFavor(res =>{
       this.setData({
@@ -76,13 +85,6 @@ Page({
    * 生命周期函数--监听页面初次渲染完成
    */
   onReady: function () {
-
-  },
-
-  /**
-   * 生命周期函数--监听页面显示
-   */
-  onShow: function () {
 
   },
 

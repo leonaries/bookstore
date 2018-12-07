@@ -9,7 +9,8 @@
     </view>
   </view>
   <v-movie wx:if="{{classicData.type == 100}}"  img="{{classicData.image}}" content="{{classicData.content}}"/>
-  <v-music wx:if="{{classicData.type == 200}}"  img="{{classicData.image}}" content="{{classicData.content}}" src='{{classicData.url}}' />
+  <v-music wx:if="{{classicData.type == 200}}"  img="{{classicData.image}}" content="{{classicData.content}}" 
+  src='{{classicData.url}}' title='{{classicData.title}}' />
   <v-essay wx:if="{{classicData.type == 300}}"  img="{{classicData.image}}" content="{{classicData.content}}"/>
   <v-navi bind:left='onNext' bind:right='onPrevious'  class='navi' title='{{classicData.title}}' 
   first='{{first}}' latest='{{latest}}'/>

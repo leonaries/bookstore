@@ -8,7 +8,7 @@ Component({
       type: Object,
       observer: function(newVal) {
         if (newVal) {
-          let typeText = {
+          var typeText = {
             100: "电影",
             200: "音乐",
             300: "句子"
